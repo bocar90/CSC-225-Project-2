@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.index{  
+    background-image: url(/images/car-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    background: gray;
+}
+.img-fluid{
+    width: 900px;
+    height: 350px;
+}
+.jumbotron, .map-responsive{
+    background: unset;
+}
+.btn-lg{
+    border-radius: 35px;
+}
+.service{
+   background-image: url(/images/service.jpg);
+   background-size: cover;
+   height: 50vh;
+}
+.form-group, .form-check-label{
+    color: white;
+}

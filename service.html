@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Service</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="/index.html"><i class="fas fa-car ml-4"></i> Bocar Auto</a>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active mr-2">
+                  <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item mr-2">
+                  <a class="nav-link" href="/catalog.html">Catalog</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="/cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/checkout.html">Check-out</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container mr-auto mt-lg-0">
+      <h1 class="text-light display-5 font-weight-bold">Schedule Service</h1>
+      <div class="jumbotron jumbotron-fluid d-flex flex-column align-items-center justify-content-center service">
+         
+      </div>
+    </div>
+    <div class="container mr-auto mt-lg-0">
+      <div class="jumbotron jumbotron-fluid d-flex flex-column align-items-center justify-content-center">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="select">Select your vehicle</label>
+            <select class="form-control" id="select">
+              <option>2019  Honda Civic LX FWD</option>
+              <option>2020 Honda CR-V LX AWD</option>
+              <option>2020 Honda Pilot LX AWD</option>
+              <option>2019 Mercedes C-Class</option>
+              <option>2020 LAND ROVER RANGE</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="multSelect">Select services</label>
+            <select multiple class="form-control" id="multSelect">
+              <option>Oil Change</option>
+              <option>Tire Rotation</option>
+              <option>Maintenance Minder Services</option>
+              <option>Wiper Blades</option>
+              <option>Cabin & Engine Air Filters</option>
+              <option>Tire Repairs</option>
+              <option>Multi-Point Inspections</option>
+              <option>Brake Inspections</option>
+              <option>Fluids Inspected & Replenished</option>
+              <option>Battery Services</option>
+              <option>Replace Belts & Hoses</option>
+              <option>Brake Replacement & Repairs</option>
+              <option>Light Bulb Replacement & Repairs</option>
+              <option>Recall Work</option>
+              <option>Check Engine Light</option>
+              <option>Water Leak</option>
+              <option>Noise While Driving Concerns</option>
+              <option>Warranty Concerns</option>
+              <option>Diagnostic Work</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="textarea">Comment</label>
+            <textarea class="form-control" id="textarea" rows="3" placeholder="Tell us in few words what is wrong with your car"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile">Upload a picture of the damage</label>
+            <input type="file" class="form-control-file" id="exampleInputFile">
+          </div>
+          <fieldset class="form-group">
+            <legend>Select your availibility</legend>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Morning
+              </label>
+            </div>
+            <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                Afternoon
+              </label>
+            </div>
+          </fieldset>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              I agree to the terms and conditions of Bocar Auto 
+            </label>
+          </div>
+          <p class="text-center"><button type="submit" class="btn btn-dark mt-3">Submit</button></p>
+        </form>    
+      </div>
+    </div>
+    <footer>
+      <p class="text-center text-white bg-dark fixed-bottom p-4 mb-0 small">Copyright 2020 <i class="fas fa-pizza-slice"></i> Bocar Auto</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
